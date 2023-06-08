@@ -1,0 +1,78 @@
+
+.faq {
+    font-size: 45px;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    color: #79CA5D;
+}
+.faq-heading{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+.wrapper{
+    display: flex;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.accordian{
+    width: 800px; 
+    padding: 0 70px;  
+}
+.item{
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.item:hover{
+    background-color: #79CA5D;
+    color: #fff;
+}
+.title{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.content{
+    font-size: 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.content.show{
+    height: auto;
+    font-size: 18px;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.icon-size{
+    font-size: 25px;
+}
+@media (max-width: 700px) {
+    .faq{
+        font-size: 25px;
+    }
+    .faq-heading{
+        font-size: 27px;
+    }
+    .icon-size{
+        font-size: 18px;
+    }
+    .content.show{
+        font-size: 16px;
+    }
+    .title h2{
+        font-size: 20px;
+    }
+   
+    .item{
+        width: 80vw;
+       
+    }
+  }

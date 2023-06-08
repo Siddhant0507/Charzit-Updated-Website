@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+    width: 100vw
+}
+.start{
+    height: 100vh;
+    background-image: url("../../public/main2.jpg");
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+.firstContainer{
+    background: transparent;
+    padding-left: 50px;
+    width: 50vw;
+    margin-top: 70px;
+    
+}
+.subheading-div1 {
+    font-size: 1.7rem;
+    margin: 0px;
+    
+  }
+  .home-heading {
+    font-size: 3rem;
+    margin: 20px;
+    margin-bottom: 0px;
+  }
+  .greenText {
+    color: #79ca5d;
+  }
+  .desc-div1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .btn-div {
+    background-color: transparent;
+    display: inline-block;
+    width: 68.46px;
+    height: 51.86px;
+    border-radius: 5px;
+    margin: 20px 20px 0 0;
+  
+    border: 1px solid #79ca5d;
+  }
+  .btn-div:hover {
+    background-color: #79ca5d;
+  }
+  .btn {
+    color: #fff;
+    padding-right: 20px;
+    width: 45px;
+    height: 45px;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+
+  /* second div */
+
+  .secondDiv {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+  }
+  .div2{
+    padding: 50px 0;
+  }
+  .img {
+    width: 20rem;
+    height: 30rem;
+  }
+
+  .TextSection {
+    padding-top: 20px;
+    width: 44rem;
+  }
+  .div2-heading , .div3-heading{
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .div2-desc , .desc-third-div {
+    font-size: 20px;
+  }
+
+  /* third div */
+  .img31{
+    height: 15rem;
+    width: 15rem;
+  }
+  .img32{
+    height: 15rem;
+    width: 15rem;
+  }
+
+  /* Number Animation */
+  .number-animation {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 70px 50px 70px;
+  }
+
+
+
+/*  for mobile devices */
+  @media (max-width:599px) {
+    .start{
+        height: auto;
+        background-image: none;
+        color: #fff;
+    }
+    .firstContainer {
+        padding: 30px;
+        width: auto;
+        margin-top: 0;
+    }
+    .subheading-div1{
+        font-size: 18px;
+        
+      }
+      .home-heading{
+        font-size: 37px;
+        width: auto;
+      }
+      .desc-div1{
+        font-size: 18px;
+      }
+      .download-text{
+        font-size: 18;
+      }
+      .btn-div{
+        height: 30px;
+        width: 30px;
+      }
+      .btn{
+        height: 22px;
+        width: 22px;
+        padding-left: 4px;
+      }
+
+      /* second div */
+      .secondDiv{
+        flex-direction: column;
+        padding:20px;
+        margin: 0;
+      }
+      .TextSection{
+        width: auto;
+        padding: 0 30px;
+        text-align: justify;
+      }
+
+      /* for third div */
+      .img3{
+        height: 13rem;
+        width: auto;
+        margin: 10px;
+      }
+     
+      /* number animation */
+      .number-animation{
+        padding: 30px 0;
+      }
+      .number-animation h1{
+        font-size: 27px;
+      }
+      .number-animation h3{
+        font-size: 16px;
+      }
+  }

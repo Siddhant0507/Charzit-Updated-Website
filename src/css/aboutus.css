@@ -1,0 +1,53 @@
+body{
+    background-color:#15171A;
+
+}
+.aboutStart{
+    margin-top: 40px;
+    text-align: center;
+}
+.about{
+    font-size: 2rem;
+    color: #79CA5D;
+}
+.heading{
+    color: #fff;
+    font-size: 40px;
+}
+
+.first-heading , .second-heading, .third-heading , .fourth-heading{
+    color: #fff;
+    font-size: 3rem;
+}
+/* ///////////////////////////////////// */
+
+.founder-desc{
+    font-size: 18px;
+}
+.text2,.first-desc, .third-desc{
+    
+    color: #fff;
+    text-align: justify;
+}
+.cofounder{
+    color: #79CA5D;
+    font-size: 20px;
+}
+
+ .founder-img{
+    width: 350px;
+height: auto;
+ }
+ .saurabh{
+    height: auto;
+    width: 350px;
+    padding-left: 50px;
+ }
+
+
+ @media only screen and (max-width:599) {
+    .div-first{
+        flex-direction: column;
+    }
+ }
+ 
