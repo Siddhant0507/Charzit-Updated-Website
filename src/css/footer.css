@@ -9,6 +9,13 @@
   height: 70px;
   width: auto;
 }
+.footerLinks{
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  display: block;
+  padding: 17px;
+}
 .footer {
   /* position: absolute; */
   width: 100%;

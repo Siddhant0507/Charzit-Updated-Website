@@ -38,16 +38,44 @@ body{
     width: 350px;
 height: auto;
  }
+
  .saurabh{
-    height: auto;
-    width: 350px;
-    padding-left: 50px;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 30px;
  }
+ .MeetTeam{
+    color: #fff;
+    text-align: center;
+    padding: 50px ;
+ }
+
+ .rajDiv{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+ }
+
 
 
  @media only screen and (max-width:599) {
     .div-first{
         flex-direction: column;
     }
+   
+    .saurabh{
+        height: 20rem;
+        width: 15rem;
+        border-radius: 30px;
+    }
+    .imgNone{
+        display: hidden;
+    }
+   .rajSection{
+    flex-direction: column-reverse;
+   }
  }
  

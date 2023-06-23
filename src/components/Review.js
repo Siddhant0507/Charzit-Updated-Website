@@ -23,10 +23,9 @@ function Review() {
           <div className="review-body">
             <p className="review">
               charzit has been a game-changer for me as an electric vehicle
-              owner. Not only can I easily locate charging stations while out
-              and about, but the multiple options available let me pick the most
-              cost-effective and convenient solution that meets my needs and
-              budget. 
+              owner.I easily locate charging stations while out
+              and about, the multiple options available let me pick the most
+              cost-effective solution that meets my needs. 
             </p>
             <h4 className="customer-name">Siddhant Kotambe</h4>
           </div>

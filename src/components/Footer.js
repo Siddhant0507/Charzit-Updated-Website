@@ -1,9 +1,9 @@
 import React from "react";
 import "../css/footer.css";
-// import { BsFacebook } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
+import { NavLink } from "react-router-dom";
 function Footer() {
   return (
     <>
@@ -15,8 +15,8 @@ function Footer() {
 
           <div className="column">
             <h3>Learn More</h3>
-            <p>About Us</p>
-            <p>Contact Us</p>
+            <NavLink to="/About" className="footerLinks">About Us</NavLink>
+            <NavLink to="/Contact" className="footerLinks">Contact Us</NavLink>
             <p>Privacy Policy</p>
           </div>
 

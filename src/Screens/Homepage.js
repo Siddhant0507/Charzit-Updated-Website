@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Navbar from '../components/Navbar';
 import Ipad from '../components/Ipad';
 import Cards from '../components/Cards';
@@ -9,13 +9,18 @@ import "../css/Home.css";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
 
+import CountUp from 'react-countup';
+
 function Homepage() {
+  useEffect(() => {
+    document.title="Charzit | Home";
+  },[]);
  
   return (
     <>
-    
+     
     <div className='start'>
-       <Navbar/>
+     <div className='NavDiv'><Navbar/></div> 
         <div className='firstContainer'>
         <h3 className="subheading-div1">
             Experience limitless charging possibilities with Charzit
@@ -31,17 +36,17 @@ function Homepage() {
             transportation while lowering their CO2 footprint.
           </p>
           <h2 className="desc-div1">Download Now</h2>
-          <a href="/" target="_blank">
-            <div className="btn-div">
-              <FaGooglePlay className="btn" />
+          
+            <div className="btn-div" onClick={()=>{alert("App is under Development")}}>
+              <FaGooglePlay  />
             </div>
-          </a>
+          
 
-          <a href="/" target="_blank">
-            <div className="btn-div">
-              <FaApple className="btn" />
+        
+            <div className="btn-div" onClick={()=>{alert("App is under Development")}}>
+              <FaApple/>
             </div>
-          </a>
+          
           </div>
     </div>
 
@@ -95,17 +100,17 @@ function Homepage() {
 
       <div className="number-animation">
         <div>
-          <h1>150+</h1>
+        <CountUp end={100} enableScrollSpy="true"  duration={10} className='animationNumber'/>
           <h3>charging Stations</h3>
         </div>
 
         <div>
-          <h1>500+</h1>
+        <CountUp end={500} duration={10} enableScrollSpy="true" className='animationNumber'/>
           <h3>Active User</h3>
         </div>
 
         <div>
-          <h1>1500+</h1>
+        <CountUp end={1500} duration={10} enableScrollSpy="true" className='animationNumber'/>
           <h3>Charging Sections</h3>
         </div>
       </div>

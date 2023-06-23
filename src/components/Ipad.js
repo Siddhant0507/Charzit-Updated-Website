@@ -21,13 +21,13 @@ function Ipad() {
             The Charge Zone® Smart App is fully loaded with interactive features
             and offers a smarter way to manage your charging needs.
           </p>
-          <a href="www.google.com"  target="_blank">
-            <img className="ios-btn" src="../ios.png"  alt="img" />
-          </a>
+    
+            <img className="ios-btn" src="../ios.png"  alt="img" onClick={()=>{alert("App is under Development")}} />
+          
 
-          <a href="www.google.com"  target="_blank">
-            <img className="ios-btn" src="../android.png" alt="img" />
-          </a>
+          
+            <img className="ios-btn" src="../android.png" alt="img" onClick={()=>{alert("App is under Development")}} />
+          
         </div>
       </div>
     </>

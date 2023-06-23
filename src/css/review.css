@@ -17,6 +17,7 @@
     text-align: center;
     color: #fff;
     font-size: 50px;
+    margin-bottom: 30px;
 }
 .review-text{
     color: #fff;
@@ -29,6 +30,7 @@
 .customer-name{
     color: #79CA5D;
     padding-left: 30px;
+    font-size: 24px;
 }
 .review{
     color: #fff;
@@ -36,7 +38,8 @@
     text-align: justify;
     margin: 10px 30px;
     padding-top: 40px;
-    letter-spacing: 2px;
+    line-height: 1.5;
+
 }
 .review-div{
     margin-top: 20px;

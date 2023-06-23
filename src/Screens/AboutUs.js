@@ -1,11 +1,14 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Navbar from "../components/Navbar";
 import "../css/aboutus.css";
 import Footer from "../components/Footer";
 function AboutUs() {
+  useEffect(() => {
+    document.title="About Us";
+  },[]);
   return (
     <>
-      <Navbar />
+     <div className="NavDiv"><Navbar /></div> 
 
       <div className="aboutStart">
         <h3 className="about">About Us</h3>
@@ -15,7 +18,7 @@ function AboutUs() {
  {/* first div */}
       <div className="secondDiv">
           <div className="imgSection">
-          <img className="img" alt=" iamge" src="../charging.png" />
+          <img className="img" alt=" iamge" src="../charger2.png" />
           </div>
 
         <div className=" TextSection">
@@ -39,8 +42,8 @@ function AboutUs() {
 
 
  {/* second div */}
-      <div className="secondDiv">
-        <div className="TextSection">
+      <div className="MeetTeam">
+      
           <h1 className="div3-heading">
             Meet the <span className="greenText">Team</span>
           </h1>
@@ -51,22 +54,17 @@ function AboutUs() {
             in technology, engineering, customer service, and sustainability
             experts - ensuring you always receive top-quality service.
           </p>
-        </div>
 
-        <div className="imgSection">
-          <img className="img31" alt="" src="../team1.png" />
-          <img className="img32" alt="" src="../team2.png" />
-          
-        </div>
+       
       </div>
 
 {/* saurabh section */}
       <div className="secondDiv">
-        <div className="imgSection">
-          <img className="img" alt="" src="../founder2.jpg" />
+        <div className="imgSection ">
+          <img className="saurabh" alt="" src="../founder2.jpg" />
         </div>
 
-        <div className="text-area">
+        <div className="TextSection">
           <h3 className="div3-heading">
             Meet the <span className="greenText">Co-Founder</span>
           </h3>
@@ -87,9 +85,8 @@ function AboutUs() {
         </div>
       </div>
 
-      <div className="secondDiv">
-         <div className="text-area">
-         
+      <div className="secondDiv rajSection">
+         <div className="TextSection">
           <h1>Raj Kalkute</h1>
           <h4 className="cofounder">Co-Founder</h4>
           <p className="div2-desc">
@@ -105,8 +102,8 @@ function AboutUs() {
             expertise, Saurabh is a valuable asset to the Charzit team.
           </p>
         </div>
-        <div className="img-area">
-          <img className="img" alt="" src="../raj.jpg" />
+        <div className="imgSection">
+          <img className="saurabh" alt="" src="../raj.jpg" />
         </div>
       </div> 
 

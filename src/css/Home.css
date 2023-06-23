@@ -11,6 +11,9 @@ body{
     color: #fff;
 
 }
+.NavDiv{
+  padding-top: 20px;
+}
 .firstContainer{
     background: transparent;
     padding-left: 50px;
@@ -39,24 +42,20 @@ body{
   .btn-div {
     background-color: transparent;
     display: inline-block;
+    padding: 6px 0 0 14px;
     width: 68.46px;
     height: 51.86px;
     border-radius: 5px;
     margin: 20px 20px 0 0;
-  
+    font-size: 35px;
+    color: #fff;
     border: 1px solid #79ca5d;
+
   }
   .btn-div:hover {
     background-color: #79ca5d;
   }
-  .btn {
-    color: #fff;
-    padding-right: 20px;
-    width: 45px;
-    height: 45px;
-    padding-left: 10px;
-    padding-top: 5px;
-  }
+  
 
   /* second div */
 
@@ -86,6 +85,7 @@ body{
   }
   .div2-desc , .desc-third-div {
     font-size: 20px;
+    line-height: 1.7;
   }
 
   /* third div */
@@ -105,6 +105,10 @@ body{
     justify-content: space-around;
     padding: 50px 70px 50px 70px;
   }
+  .animationNumber{
+    font-size: 35px;
+    font-weight: 700;
+  }
 
 
 
@@ -114,6 +118,9 @@ body{
         height: auto;
         background-image: none;
         color: #fff;
+    }
+    .NavDiv{
+      padding: 0;
     }
     .firstContainer {
         padding: 30px;
@@ -130,13 +137,16 @@ body{
       }
       .desc-div1{
         font-size: 18px;
+        text-align: left;
       }
       .download-text{
         font-size: 18;
       }
       .btn-div{
-        height: 30px;
-        width: 30px;
+        height: 35px;
+        width: 35px;
+        font-size: 25px;
+        padding: 2px 0 0 3px;
       }
       .btn{
         height: 22px;
@@ -158,9 +168,7 @@ body{
 
       /* for third div */
       .img3{
-        height: 13rem;
-        width: auto;
-        margin: 10px;
+        display: none;
       }
      
       /* number animation */
