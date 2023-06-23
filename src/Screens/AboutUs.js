@@ -90,16 +90,7 @@ function AboutUs() {
           <h1>Raj Kalkute</h1>
           <h4 className="cofounder">Co-Founder</h4>
           <p className="div2-desc">
-            Saurabh Gawade is a highly accomplished professional with a diverse
-            engineering, business, and EV industry background. He holds a
-            Master's degree in Business Marketing, a Bachelor's degree in
-            Engineering. Saurabh's rich experience in the electric vehicle (EV)
-            industry includes working at Okinawa, a well-known two-wheeler EV
-            brand, and serving in key roles at Customized Energy Solutions and
-            Emerson Process Management. As a result of his extensive experience,
-            Saurabh has gained a deep understanding of the EV industry, which he
-            brings to his role at Charzit. With his wealth of knowledge and
-            expertise, Saurabh is a valuable asset to the Charzit team.
+          Raj Kalkute is a valuable addition to the company, bringing a distinctive blend of technical expertise and business acumen. With a background in Electronics and Telecommunications Engineering and a Master's degree in Business and Management from the UK, Raj possesses a deep understanding of both the technical and business aspects of the electric vehicle (EV) industry. Having worked with prominent companies such as Okinawa and Benling (leading two-wheeler EV brands) and Energy infra Pvt Ltd, Raj has comprehensively understood the EV industry. His expertise and experience are instrumental in driving the growth and success of the company. Raj is poised to make a positive impact in any organization he chooses to work with.
           </p>
         </div>
         <div className="imgSection">
